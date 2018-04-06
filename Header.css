@@ -1,0 +1,72 @@
+@font-face {
+    font-family: cairo;
+    src: url(Cairo-SemiBold.ttf);
+}
+
+#date{
+    position: absolute;
+    height:10px;
+   
+}
+
+#pageTop{
+    top: 80px;
+    position: absolute;
+   
+}
+#line1{
+    margin-top: 170px;
+    width:100%;
+    color:#808080;
+
+}
+.TopContainer{
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 160px;
+    margin-right: 160px;
+    
+
+}
+.TopContainer *{
+    float: right;
+    color:#B0B0B0;
+    size: 12pt;
+    font-family: cairo;
+   
+
+}
+.menuBar{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+#newsMenu, #reports, #multimedia, #archive, #wam{
+    padding-left:20px;
+    float: right;
+    background: none;
+    border: none;
+    font-size: 14pt;
+    font-family: cairo;
+    color:#B0B0B0;
+
+}
+#mainpage{
+    padding-left:20px;
+    float: right;
+    background: none;
+    border: none;
+    font-size: 14pt;
+    font-family: cairo;
+    color:#344d9b;
+}
+#newsMenu{
+    width: 90px;
+}
+#wam{
+    width: 70px;
+}
