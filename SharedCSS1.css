@@ -1,0 +1,291 @@
+@font-face {
+    font-family: cairo;
+    src: url(Cairo-SemiBold.ttf);
+}
+@font-face {
+    font-family: cairo2;
+    src: url(Cairo-Light.ttf);
+}
+.container{
+    height: 100%;
+    width: 100%;
+   
+}
+.wamforstudents{
+    background:white;
+    width: 421px;
+    height: 871px;
+    margin-top: 25px;
+    font-family: cairo; 
+    float:right;
+    margin-right:100px;
+    margin-left:15px;
+   
+}
+.upper{
+    text-align:center;
+    margin-top:25px;
+}
+.upper2 *{
+    margin-top:15px;
+    float:right;
+    width: 240px;
+    text-align:center;
+}
+.upper3 *{
+    float:right;
+    width: 110px;
+
+}
+.lower *{
+    float: right;
+    width: 421px;
+}
+.lower2 *{
+    float:right;
+    width: 240px;
+}
+.mostread{
+    background:white;
+    height: 871px;
+    width: 240px;
+    font-family: cairo;
+    margin-left: 15px;
+    margin-top: 25px;
+    float:right;
+    align-content: center;
+}
+  
+.weather{
+    background:white;
+    width: 240px;
+    height: 612px;
+    font-family: cairo;
+    float:right;
+    margin-left: 290px;
+    margin-top: 25px;
+    
+}
+.mail{
+    float:right;
+    background:white;
+    width: 240px;
+    height: 244px;
+    margin-top: 15px;
+}
+.othernews{
+    float:right;
+    background:white;
+    width: 676px;
+    height: 823px;
+    margin-top: 20px;
+    margin-right:100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.events{
+    float:right;
+    background:white;
+    width: 240px;
+    height: 582px;
+    margin-top: 20px;
+    margin-right:15px;
+    margin-left:290px;
+    text-align: center;
+}
+.eventslower *{
+    float:right;
+    width: 100px;
+    margin-right:10px;
+    height:100px;
+
+
+}
+.ads{
+    float:right;
+    width: 240px;
+    height: 221px;
+    margin-top: 20px;
+    margin-right:15px;
+    text-align: center;
+    background-color: #cbccce;
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+.ads *{
+    float:right;
+    font-size: 12px;
+    font-family: cairo; 
+    color:#616161;
+    margin-top:110.5px;
+    margin-right: 80px;
+   
+}
+
+.weather *{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#newstable{
+    padding-right: 25px;
+}
+#date, #date2, #date3, #date4, #d1, #d2, #d3, #d4, #d5, #d6{
+    font-family: cairo; 
+    font-size: 12px;
+    color:#344d9b;
+    margin-right:15px;
+
+
+}
+#students, #read, #weath, #maillist, #others, #eventat, #month{
+    color:#344d9b;
+    font-size: 18pt;
+    font-family: cairo; 
+}
+#img1{
+    width: 391px;
+    height: 400px;
+    margin-top: 20px;
+}
+#news2, #n1, #n2, #n3, #n4, #n5, #n6{
+    font-size: 15px;
+    color:#344d9b;
+    margin-right: 15px;
+    font-family: cairo;
+}
+#newsbody1, #subnow, #newsbody2, #newsbody3, #newsbody4, #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{
+    font-family: cairo; 
+    color: #a7adb7;
+    font-size: 12px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+#usermail{
+    margin-right: 15px;
+}
+#go{
+    position: absolute;
+    background-color: #344d9b;
+    color:white;
+}
+
+#img2, #im4, #im5, #im6, #im7, #im8, #im9{
+    width: 190px;
+    height: 170px;
+    margin-top: 20px;
+}
+#more1, #more2, #more3{
+    text-align: left;
+    color: #a7adb7;
+    margin-left: 10px;
+}
+#gomore, #gomore2, #gomore3{
+    color: #344d9b;
+    font-family: cairo;
+    text-align: center;
+}
+#cloud{
+    width: 90px;
+    height: 80px;
+    margin-right:75px;
+}
+#temp{
+    color:#a7adb7;
+    font-size: 35px;
+    font-family: cairo2;
+}
+#temp1, #temp2, #temp3{
+    color:#a7adb7;
+    font-size: 35px;
+    font-family: cairo2;
+    margin-left: 20px;
+
+   
+}
+#im1, #im2, #im3{
+    margin-right:20px;
+    width: 82px;
+    height: 66px;
+}
+
+
+/* CALENDAR*/
+.month {
+    padding: 10px 2.5px;
+    width: 100%;
+    text-align: center;
+    font-family: cairo;
+}
+
+
+.month ul {
+    margin: 0;
+    padding: 0;
+    font-family: cairo;
+
+}
+
+.month ul li {
+    color:#a7adb7;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: cairo;
+
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 1.5px;
+    font-family: cairo;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 1px;
+    font-family: cairo;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 0px 0;
+    font-family: cairo;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 12.6%;
+    color: #a7adb7;
+    text-align: center;
+    font-family: cairo;
+    font-size: 6px;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 1.5px 0;
+    margin: 0;
+    font-family: cairo;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 1.5px;
+    font-size:10px;
+    color: #a7adb7;
+    font-family: cairo;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 1.5px;
+    color: #344d9b;
+    font-family: cairo;
+}
