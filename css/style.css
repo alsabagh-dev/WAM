@@ -144,3 +144,103 @@ input {
 }
 
 /*//////////////////////////////////*/
+
+/*section fotter*/
+.footer {
+  background: #fff;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*direction: rtl;*/
+}
+
+.footer h2 {  
+  color: #334e9d;
+  margin-bottom: 25px;
+}
+
+body {
+  background: #ddd;
+}
+
+
+.footer .container-fluid {
+  width: 95%; 
+  margin: 0 auto;
+}
+
+.footer .social li {
+  float: left;
+  width: calc(100%/5);
+  /*margin-left: 2px;*/  
+}
+
+.footer li {
+  color: #888;
+}
+
+.social input {
+  width: 70%; 
+  direction: rtl;
+  float: right;
+  border-radius: 0%;
+  height: 40px;
+  background: #ddd;
+}
+.social{
+  height: 200px;
+}
+
+.social button {
+  border-radius: 0%;
+  float: right;
+  height: 40px;
+  width: 25%;
+  background: #334e9d;  
+}
+
+.social .form {
+  margin-top: 70px;
+}
+
+.footer img {
+  width: 150px;
+  height: 150px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
