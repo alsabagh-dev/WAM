@@ -1,7 +1,6 @@
 body {
   background: #edeff1;
   font-family: 'Cairo', sans-serif;
-  
 }
 
 
@@ -104,12 +103,44 @@ input {
 }
 
 .register img {
-display: block;
-margin: 0 auto;
-max-width: 150px;
-max-height: 150px;
-
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 /*///////////////////////////////////////////*/
-/*about WAM*/
+
+/* section about */
+.about {
+  width: 70%;
+  margin: 20px auto;
+  background: #fff;
+  color: #999;
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  color: #334e9d;
+  margin-bottom: 25px;
+}
+
+.about div {
+  margin: 40px;
+}
+
+.about span {
+  font-weight: bold;
+}
+
+.about .img {
+  margin-bottom: 50px;
+}
+
+/*//////////////////////////////////*/
