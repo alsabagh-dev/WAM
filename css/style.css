@@ -7,7 +7,7 @@ body {
 /*upload file page*/
 .upback {
   background-color: #fff;
-  margin-top: 120px; 
+  margin-top: 120px;
 }
 
 .upload-head {
@@ -97,6 +97,14 @@ input {
 /*///////////////////////////////////////////*/
 
 /* register */
+.register {
+  margin-bottom: 5%;
+}
+
+.register h5 {
+  color: #334e9d;
+}
+
 .logo img {
   max-width: 350px;
   max-height: 70px;
@@ -109,6 +117,67 @@ input {
   max-height: 150px;
 }
 
+.register-input {
+  padding-left: 40px;
+}
+
+.register-input input{
+  background-color: #edeff1;;
+  margin-bottom: 3%;
+  font-family: FontAwesome, "Cairo", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+.register-input #register-submit {
+  background-color: #334e9d;  
+}
+
+.register-input span {
+  color: #999;  
+}
+.about-wam h5 {
+  margin-bottom: 5%;
+  color: #334e9d;
+  font-weight: bold;
+}
+.about-wam p {
+  margin-bottom: 5%;
+  color: #999;  
+}
+
+.ploices h5 {
+  margin-bottom: 5%;
+  color: #334e9d;
+  font-weight: bold;
+}
+
+.ploices p {
+  color: #999;  
+}
+
+.socail-register {
+  margin-top: 3%;
+}
+
+.socail-register a {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.socail-register i {
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.socail-register .x {
+  background-color: #FF0000;
+}
+
+.socail-register .y {
+  background-color: #1da1f2;
+}
 /*///////////////////////////////////////////*/
 
 /* section about */
