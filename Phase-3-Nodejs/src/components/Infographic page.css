@@ -1,0 +1,148 @@
+@font-face {
+    font-family: cairo;
+    src: url(Cairo-SemiBold.ttf);
+}
+
+body{    
+    background-image: url("Background.png");      
+    display: block; 
+    position: relative;
+    width:1920px;
+    height:1440px;     
+    overflow: auto;   
+    margin:0px;   
+}
+
+.fon1Title{    
+    text-align: center;
+    display: block;      
+    font-size: 25pt;
+    font-family: cairo;
+    color: #344d9b;            
+}
+
+.fon1{    
+    width: auto;
+    margin-right: 50px;
+    margin-top: 5px;    
+    margin-bottom: 5px; 
+    display: inline-block;              
+    font-size: 15pt;
+    font-family: cairo;
+    color: #344d9b;            
+}
+
+.fon2{          
+    width:auto;      
+    display: inline-block; 
+    margin-right: 20px;        
+    margin-top: 5px;    
+    margin-bottom: 5px;    
+    justify-content:right;   
+    font-size: 13pt;
+    font-family: cairo;
+    color: #b2b7c0;
+}
+
+.UPbutton{
+    display: inline-block;
+    width: 45px;          
+    height: 46px;
+    background: url("UpVoteCircle.png")
+}
+
+.Downbutton{     
+    display: inline-block;
+    width: 45px;          
+    height: 46px;     
+    background: url("DownVoteCircle.png");    
+}
+
+.duncarePbutton{ 
+    display: inline-block;
+    width: 45px;          
+    height: 46px;         
+    background: url("DuncareVoteCircle.png");    
+}
+
+.mainBlock{   
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    left:320px;   
+    right:340px;    
+    margin-right: 0px;
+    margin-left: 0px;   
+    margin-top:40px;  
+    margin-bottom: 40px;    
+}
+
+.callus{
+    width:940px;
+    height:260px;
+    position: absolute;    
+    display: inline-block;
+    background-color: white;        
+    margin-left: 20px;    
+    margin-top: 0px;
+    margin-right: 0px;
+    right:300px; 
+}
+
+.rightContainer{
+    width:300px;
+    height:1900px;
+    position: absolute; 
+    display: block;
+    background-color: white;
+    right:320px;
+    margin-right: 20px;
+}
+
+.midContainer{
+    width:610px;
+    height:100%;
+    position: absolute; 
+    display: block;
+    left:640px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.leftContainer{
+    width:300px;
+    height:1900px;
+    position: absolute; 
+    display: block;
+    left:320px;
+    background-color: #edeff1;    
+    margin-right: 20px;    
+}
+
+.leftContainer .weather{    
+    right:auto;
+    left :auto;
+    margin : 0;
+    width:300px;
+    height:800px;
+    position: absolute;
+    background-color: white;     
+    display: block;               
+}
+
+.leftContainer .vote{
+    top:820px;
+    width:300px;
+    height:600px;    
+    position: absolute; 
+    display: block;         
+    background-color: white;   
+    margin-top: 20px;
+}
+
+.wi{
+    display: block;        
+    margin:auto;
+    text-align: center;
+}

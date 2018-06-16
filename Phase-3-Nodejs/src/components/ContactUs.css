@@ -1,0 +1,108 @@
+@font-face {
+    font-family: cairo;
+    src: url(Cairo-SemiBold.ttf);
+}
+
+body{    
+    background-image: url("Background.png");      
+    display: block; 
+    position: relative;
+    width:1920px;
+    height:1440px;     
+    overflow: auto;   
+    margin:0px;   
+}
+
+.fon1Title{    
+    text-align: center;
+    display: block;      
+    font-size: 25pt;
+    font-family: cairo;
+    color: #344d9b;            
+}
+
+.fon1{    
+    width: auto;
+    margin-right: 50px;
+    margin-top: 5px;    
+    margin-bottom: 5px; 
+    display: inline-block;              
+    font-size: 15pt;
+    font-family: cairo;
+    color: #344d9b;            
+}
+
+.fon2{      
+    width:auto;      
+    display: inline-block; 
+    margin-right: 20px;        
+    margin-top: 5px;    
+    margin-bottom: 5px;    
+    justify-content:right;   
+    font-size: 13pt;
+    font-family: cairo;
+    color: #b2b7c0;
+}
+
+.mainBlock{   
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    left:320px;   
+    right:340px;    
+    margin-right: 0px;
+    margin-left: 0px;   
+    margin-top:40px;  
+    margin-bottom: 40px;    
+}
+
+.callus{
+    width:940px;
+    height:260px;
+    position: absolute;    
+    display: inline-block;
+    background-color: white;        
+    margin-left: 20px;    
+    margin-top: 0px;
+    margin-right: 0px;
+    right:300px; 
+}
+.weather{
+    width:300px;
+    height:800px;
+    position: absolute; 
+    display: inline-block;
+    background-color: white;        
+    right:1240px;    
+    margin-right: 20px;
+}
+.map{
+    position: absolute;  
+    display: inline-block;  
+    width:940px;
+    height: 520px;
+    display: block;
+    background-color: white;        
+    margin-left: 20px;    
+    margin-top: 20px;
+    top:250px;
+    right:300px;
+}
+
+.mapimage{
+    max-width:900px;
+    max-height:300px;
+    position: absolute;
+    text-align: center;
+    display: block;
+    margin-left: 15px;    
+    margin-right: 15px;
+    top:190px;
+}
+
+.wi{
+    display: block;        
+    margin:auto;
+    text-align: center;
+}

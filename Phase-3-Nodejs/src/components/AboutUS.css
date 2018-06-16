@@ -1,0 +1,36 @@
+@font-face {
+    font-family: cairo;
+    src: url(Cairo-SemiBold.ttf);
+}
+
+body{
+    width: 1970px;
+    height: 2270px;
+    display: block;
+    background-image: url("Background.png");
+}
+
+.fon1{
+    font-size: 15pt;
+    font-family: cairo;
+    color: #344d9b;
+}
+
+.fon2{
+    font-size: 15pt;
+    font-family: cairo;
+    color: #b2b7c0;
+}
+
+.Icon{
+    text-align: center;
+} 
+
+.inside{
+    text-align: center;
+    display: block;
+    background-color: white;        
+    margin-left: 320px;    
+    margin-top: 210px;
+    margin-right: 340px;
+}
