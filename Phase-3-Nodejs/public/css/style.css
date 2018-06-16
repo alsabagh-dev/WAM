@@ -1,0 +1,315 @@
+body {
+  background: #edeff1;
+  font-family: 'Cairo', sans-serif;
+}
+
+
+/*upload file page*/
+.upback {
+  background-color: #fff;
+  margin-top: 120px;
+}
+
+.upload-head {
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.upload-head h5 {
+  color: #334e9d;
+}
+
+.upload #address {
+  height: 30px;
+  background: #edeff1;
+  margin-bottom: 20px;
+}
+
+.upload #description {
+  height: 50px;
+  background: #edeff1;
+  margin-bottom: 20px;
+}
+
+.upload #details {
+  height: 90px;
+  background: #edeff1;
+  margin-bottom: 20px;
+}
+
+.submit-buttons {
+  margin: 0 auto;
+}
+
+.submit-buttons .x {
+  margin-right: 15px;
+  width: 20%;
+}
+
+.element {
+  display: block;
+  align-items: center;
+}
+
+i.fa-camera {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+i:hover {
+  opacity: 0.6;
+}
+
+input {
+  display: none;
+}
+
+.element img {
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+/*text for file name*/
+.element .file-name {
+  background: #edeff1;
+  margin-top: 2px;
+}
+
+.element h5 {
+ font-weight: bold;
+ color: #999;
+}
+
+.tags a {
+  float: right;
+  width: 22%;
+  height: 36px;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-top: 5%;
+  font-weight: bold;
+  color: #999;
+}
+
+/*///////////////////////////////////////////*/
+
+/* register */
+.register {
+  margin-bottom: 5%;
+}
+
+.register h5 {
+  color: #334e9d;
+}
+
+.logo img {
+  max-width: 350px;
+  max-height: 70px;
+}
+
+.register img {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.register-input {
+  padding-left: 40px;
+}
+
+.register-input input{
+  background-color: #edeff1;;
+  margin-bottom: 3%;
+  font-family: FontAwesome, "Cairo", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+.register-input #register-submit {
+  background-color: #334e9d;  
+}
+
+.register-input span {
+  color: #999;  
+}
+.about-wam h5 {
+  margin-bottom: 5%;
+  color: #334e9d;
+  font-weight: bold;
+}
+.about-wam p {
+  margin-bottom: 5%;
+  color: #999;  
+}
+
+.ploices h5 {
+  margin-bottom: 5%;
+  color: #334e9d;
+  font-weight: bold;
+}
+
+.ploices p {
+  color: #999;  
+}
+
+.socail-register {
+  margin-top: 3%;
+}
+
+.socail-register a {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.socail-register i {
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.socail-register .x {
+  background-color: #FF0000;
+}
+
+.socail-register .y {
+  background-color: #1da1f2;
+}
+/*///////////////////////////////////////////*/
+
+/* section about */
+.about {
+  width: 70%;
+  margin: 20px auto;
+  background: #fff;
+  color: #999;
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  color: #334e9d;
+  margin-bottom: 25px;
+}
+
+.about div {
+  margin: 40px;
+}
+
+.about span {
+  font-weight: bold;
+}
+
+.about .img {
+  margin-bottom: 50px;
+}
+
+/*//////////////////////////////////*/
+
+/*section fotter*/
+.footer {
+  background: #fff;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*direction: rtl;*/
+}
+
+.footer h2 {  
+  color: #334e9d;
+  margin-bottom: 25px;
+}
+
+body {
+  background: #ddd;
+}
+
+
+.footer .container-fluid {
+  width: 95%; 
+  margin: 0 auto;
+}
+
+.footer .social li {
+  float: left;
+  width: calc(100%/5);
+  /*margin-left: 2px;*/  
+}
+
+.footer li {
+  color: #888;
+}
+
+.social input {
+  width: 70%; 
+  direction: rtl;
+  float: right;
+  border-radius: 0%;
+  height: 40px;
+  background: #ddd;
+}
+.social{
+  height: 200px;
+}
+
+.social button {
+  border-radius: 0%;
+  float: right;
+  height: 40px;
+  width: 25%;
+  background: #334e9d;  
+}
+
+.social .form {
+  margin-top: 70px;
+}
+
+.footer img {
+  width: 150px;
+  height: 150px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
